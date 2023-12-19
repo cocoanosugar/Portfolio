@@ -515,7 +515,6 @@ background-size: 1200% 1200%;
     transition: all 5s ease-in-out;
     left: 0;
     right: 0;
-    flex-wrap: wrap;
 }
 .popup ,.close {
     position: absolute;
@@ -547,6 +546,7 @@ background-size: 1200% 1200%;
 .popupline{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .content{
     padding: 10px;
