@@ -52,7 +52,7 @@ body{
 }
 .pic1{
     border-radius: 50%;
-    width: 30%;
+    height: 350px;
     box-shadow: 2px 2px 4px rgba(247, 36, 36, 0.5);
 }
 .intro{
