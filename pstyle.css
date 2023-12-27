@@ -27,7 +27,7 @@ body{
 }
 .icon{
     color: white;
-    font-size: 40px;
+    font-size: 2.3em;
     text-decoration: none;
     font-weight: bold;
 }
@@ -52,7 +52,7 @@ body{
 }
 .pic1{
     border-radius: 50%;
-    height: 350px;
+    width: 30%;
     box-shadow: 2px 2px 4px rgba(247, 36, 36, 0.5);
 }
 .intro{
@@ -63,6 +63,13 @@ body{
     align-items: center;
     flex-wrap: wrap;
 }
+@media screen and (max-width: 898px){
+    .text_intro{align-items: center;}
+    .if{text-align: center;}
+}
+/* @media screen and (max-width: 1097) {
+    .pic1{height: ;}
+} */
 .hi{
     color: white;
     font-size: 50px;
@@ -128,7 +135,7 @@ body{
 .topic,.ptopic{
     color: white;
     font-size: 50px;
-    font-family: 'Chakra Petch', sans-serif;
+    /* font-family: 'Chakra Petch', sans-serif; */
     font-weight: bold;
     margin-left: 5%;
 }
@@ -546,7 +553,6 @@ background-size: 1200% 1200%;
 .popupline{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
 }
 .content{
     padding: 10px;
